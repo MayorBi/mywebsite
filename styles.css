@@ -1,0 +1,78 @@
+h1 {
+    color: #7895CB;
+
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #FF9B9B, #4A55A2, #7895CB);
+    height: 680px;
+    animation: gradient-animation 18s ease infinite;
+    
+    
+  }
+
+  .gradient-footer {
+    background: linear-gradient(300deg, #FF9B9B, #4A55A2, #7895CB);
+    animation: gradient-animation 18s ease infinite;
+    padding: 10px 0 10px;
+    
+
+  }
+
+  .pro {
+    text-decoration: underline;
+  }
+  
+
+.first-section h1 {
+    font-size: 5.625rem;
+    margin: 180px auto 0 auto;
+    font-family: "Sacramento", cursive;
+  }
+
+.sec-set img {
+      width: 300px;
+      height: 320px;
+      border-radius: 50%;
+     
+    
+}
+
+
+.sec-set h1 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color: #7895CB;
+
+
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 70%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    column-gap: 1rem;
+}
+
+.skills h2 {
+    display: block;
+    text-align: center;
+
+}
+
+hr {
+    border: dotted #A8A196 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+
+p {
+    line-height: 2;
+    display: block;
+    
+}
+
